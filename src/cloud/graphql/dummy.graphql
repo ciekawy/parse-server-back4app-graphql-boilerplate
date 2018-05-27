@@ -1,0 +1,14 @@
+query Hello {
+    hello
+}
+
+#
+#fragment heroDetails on Character {
+#    name
+#    ... on Droid {
+#        primaryFunction
+#    }
+#    ... on Human {
+#        height
+#    }
+#}
